@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="WhatsApp Viewer : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>WhatsApp Viewer</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/andreas-mausch/whatsapp-viewer">View on GitHub</a>
+
+          <h1 id="project_title">WhatsApp Viewer</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/andreas-mausch/whatsapp-viewer/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/andreas-mausch/whatsapp-viewer/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Small tool to display chats from the Android msgstore.db.crypt5 database.</p>
+
+<p>How to use:</p>
+
+<ol>
+<li>Download msgstore.db.crypt5 from your Android phone (located at /sdcard/WhatsApp/Databases)</li>
+<li>Open WhatsApp Viewer</li>
+<li>File -&gt; Open -&gt; Select file</li>
+<li>Enter account name. This must be the same Google account name used on your phone. If you have more than one account, try the first one. Make sure you enter the whole email address as account name. If you have trouble, sometimes leaving the account name empty is known to work.</li>
+<li>Click on a chat to show the messages.</li>
+</ol><p>Currently only text and image messages are supported (no audio, gps).
+You cannot see bigger images because only thumbnails are stored in the database.
+You see cryptic phone numbers because account names or details are not stored in the database (no support for wa.db yet).</p>
+
+<p>This release is not stable and known to crash sometimes. Sorry.</p>
+
+<p>Credits:</p>
+
+<ul>
+<li>Whatsapp Xtract</li>
+<li>pwncrypt5.py <a href="https://github.com/aramosf/pwncrypt5/blob/master/pwncrypt5.py">https://github.com/aramosf/pwncrypt5/blob/master/pwncrypt5.py</a>
+</li>
+<li>SQLite</li>
+<li>MD5 <a href="http://bobobobo.wordpress.com/2010/10/17/md5-c-implementation/">http://bobobobo.wordpress.com/2010/10/17/md5-c-implementation/</a>
+</li>
+<li>UTF8 <a href="http://utfcpp.sourceforge.net/">http://utfcpp.sourceforge.net/</a>
+</li>
+<li>AES <a href="https://polarssl.org/aes-source-code">https://polarssl.org/aes-source-code</a>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">WhatsApp Viewer maintained by <a href="https://github.com/andreas-mausch">andreas-mausch</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
