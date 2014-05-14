@@ -201,8 +201,29 @@ ul, ol, dl {
 }
 
 ul {
-  list-style: inside;
+  list-style: disc outside none;
   padding-left: 20px;
+}
+
+ul li {
+  margin: 10px 0px 10px 0px;
+}
+
+ul li  .question {
+  font-weight: bold;
+}
+
+.file {
+  font-weight: bold;
+}
+
+.code {
+  padding-left: 10px;
+  font-family: 'Courier New';
+}
+
+ul li p {
+  margin: 0px;
 }
 
 ol {
