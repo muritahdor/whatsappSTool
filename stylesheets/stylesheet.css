@@ -213,6 +213,22 @@ ul li  .question {
   font-weight: bold;
 }
 
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  margin-bottom: 0px;
+}
+
+.features ul {
+  padding-left: 50px;
+}
+
+.features ul li {
+  margin: 0px;
+}
+
 .file {
   font-weight: bold;
 }
