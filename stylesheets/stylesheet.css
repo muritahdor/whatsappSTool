@@ -315,6 +315,8 @@ Full-Width Styles
 .download {
   font-weight: bold;
   font-size: 24px;
+  border: 1px solid #000000;
+  text-align: center;
 }
 
 #forkme_banner {
